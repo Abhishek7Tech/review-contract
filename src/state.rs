@@ -10,7 +10,7 @@ pub struct ReviewState {
     pub is_initialized: bool,
     pub title: String,
     pub description: String,
-    pub rating: u32,
+    pub rating: u8,
 }
 
 impl IsInitialized for ReviewState {
