@@ -1,0 +1,13 @@
+[package]
+name = "review"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+borsh = "1.2.1"
+borsh-derive = "1.2.1"
+solana-program = "1.17.6"
+thiserror = "2.0.14"
+
+[lib]
+crate-type = ["cdylib", "lib"]
